@@ -16,7 +16,7 @@ type Event struct {
 var events []Event
 
 func (e *Event) Save() {
-	// TODO: Save an event to the db
+	// TODO: Save an event to the sql
 	events = append(events, *e)
 }
 
